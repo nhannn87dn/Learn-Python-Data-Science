@@ -1,4 +1,4 @@
-# LỘ TRÌNH HỌC PYTHON - DATA ANALYTIC
+# LỘ TRÌNH HỌC PYTHON BASIC - DATA SICENCE
 
 ## 🎯 Mục tiêu tổng quát
 
