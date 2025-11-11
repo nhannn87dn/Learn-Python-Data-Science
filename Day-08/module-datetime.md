@@ -155,6 +155,8 @@ print(dt2)
 
 ### 🔹 Tạo `timedelta`
 
+**timedelta** là đối tượng biểu diễn khoảng thời gian (duration)
+
 ```python
 from datetime import timedelta
 
@@ -162,7 +164,11 @@ delta = timedelta(days=7, hours=3)
 print(delta)  # 7 days, 3:00:00
 ```
 
+Thông thường được áp dụng để tính toán với mốc thời gian
+
 ### 🔹 Cộng / trừ với datetime hoặc date
+
+
 
 ```python
 now = datetime.now()
