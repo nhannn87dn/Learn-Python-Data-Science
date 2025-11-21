@@ -95,6 +95,8 @@ Xem chi tiết cách sử dụng các module:
 - [Module Datetime](./module-datetime.md)
 - [Module OS](./module-os.md)
 
+Danh sách `Built-in Modules`: https://www.w3schools.com/python/python_ref_modules.asp
+
 ---
 
 ## 📦 **4. Tạo module riêng**

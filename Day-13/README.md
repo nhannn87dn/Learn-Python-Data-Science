@@ -1,4 +1,4 @@
-# 🧹 **Buổi 13: Làm sạch & Thống kê dữ liệu**
+# 🧹 **Buổi 13: Data Cleaning and Data Analysis**
 
 ## 🎯 **Mục tiêu buổi học**
 

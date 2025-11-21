@@ -1,4 +1,4 @@
-# 🐼 **Buổi 12: Pandas – Phần 2: Lọc & Tổng hợp dữ liệu**
+# 🐼 **Buổi 12: Pandas – Phần 2: Lọc & Tổng hợp dữ liệu - Data Analysis**
 
 ## 🎯 **Mục tiêu buổi học**
 

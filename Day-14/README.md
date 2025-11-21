@@ -213,13 +213,9 @@ Xem thêm tại: https://www.w3schools.com/python/matplotlib_markers.asp
 ---
 
 
-## 🎨 **Trực quan hoá dữ liệu với Seaborn**
+## 🧠 **1. Giới thiệu về Seaborn**
 
----
-
-### 🧠 **1. Giới thiệu về Seaborn**
-
-#### 🔹 Seaborn là gì?
+### 🔹 Seaborn là gì?
 
 **Seaborn** là thư viện trực quan hoá dữ liệu mạnh mẽ, xây dựng dựa trên **Matplotlib** và tích hợp chặt chẽ với **Pandas**.
 Nó giúp bạn tạo biểu đồ **đẹp, hiện đại, và dễ dàng** hơn nhiều so với Matplotlib thuần.
@@ -228,7 +224,7 @@ Nó giúp bạn tạo biểu đồ **đẹp, hiện đại, và dễ dàng** hơ
 
 ---
 
-### 💡 **2. Ưu điểm của Seaborn**
+## 💡 **2. Ưu điểm của Seaborn**
 
 | Đặc điểm         | Seaborn                                         | Matplotlib                     |
 | ---------------- | ----------------------------------------------- | ------------------------------ |
@@ -239,15 +235,15 @@ Nó giúp bạn tạo biểu đồ **đẹp, hiện đại, và dễ dàng** hơ
 
 ---
 
-### ⚙️ **3. Cài đặt và import**
+## ⚙️ **3. Cài đặt và import**
 
-#### 🔸 Cài đặt
+### 🔸 Cài đặt
 
 ```bash
 pip install seaborn
 ```
 
-#### 🔸 Import
+### 🔸 Import
 
 ```python
 import seaborn as sns
@@ -257,7 +253,7 @@ import pandas as pd
 
 ---
 
-### 🧩 **4. Dữ liệu mẫu có sẵn**
+## 🧩 **4. Dữ liệu mẫu có sẵn**
 
 Seaborn cung cấp một số **dataset mẫu** để thực hành nhanh:
 
@@ -282,11 +278,11 @@ Kết quả:
 
 ---
 
-### 📊 **5. Các loại biểu đồ phổ biến trong Seaborn**
+## 📊 **5. Các loại biểu đồ phổ biến trong Seaborn**
 
 ---
 
-#### 🔹 **1. Biểu đồ phân tán (Scatter plot)** – `sns.scatterplot()`
+### 🔹 **1. Biểu đồ phân tán (Scatter plot)** – `sns.scatterplot()`
 
 Thể hiện mối quan hệ giữa 2 biến số (giống như biểu đồ scatter của Matplotlib, nhưng dễ tùy chỉnh hơn).
 
@@ -304,7 +300,7 @@ plt.show()
 
 ---
 
-#### 🔹 **2. Biểu đồ cột (Bar plot)** – `sns.barplot()`
+### 🔹 **2. Biểu đồ cột (Bar plot)** – `sns.barplot()`
 
 Hiển thị giá trị trung bình của một biến theo nhóm.
 
@@ -320,7 +316,7 @@ plt.show()
 
 ---
 
-#### 🔹 **3. Biểu đồ hộp (Boxplot)** – `sns.boxplot()`
+### 🔹 **3. Biểu đồ hộp (Boxplot)** – `sns.boxplot()`
 
 Dùng để xem **phân bố dữ liệu** và **phát hiện outlier**.
 
@@ -332,7 +328,7 @@ plt.show()
 
 ---
 
-#### 🔹 **4. Biểu đồ violin (Violin plot)** – `sns.violinplot()`
+### 🔹 **4. Biểu đồ violin (Violin plot)** – `sns.violinplot()`
 
 Tương tự boxplot nhưng thể hiện thêm **mật độ xác suất**.
 
@@ -344,9 +340,9 @@ plt.show()
 
 ---
 
-#### 🔹 **5. Biểu đồ histogram / KDE** – `sns.histplot()` / `sns.kdeplot()`
+### 🔹 **5. Biểu đồ histogram / KDE** – `sns.histplot()` / `sns.kdeplot()`
 
-##### Histogram
+#### Histogram
 
 ```python
 sns.histplot(data=df, x="total_bill", bins=20, kde=True, color="skyblue")
@@ -354,7 +350,7 @@ plt.title("Phân bố giá trị hoá đơn")
 plt.show()
 ```
 
-##### KDE (mật độ xác suất)
+#### KDE (mật độ xác suất)
 
 ```python
 sns.kdeplot(data=df, x="total_bill", fill=True)
@@ -364,7 +360,7 @@ plt.show()
 
 ---
 
-#### 🔹 **6. Biểu đồ ma trận tương quan (Heatmap)**
+### 🔹 **6. Biểu đồ ma trận tương quan (Heatmap)**
 
 Hiển thị mối tương quan giữa các biến số.
 
@@ -377,7 +373,7 @@ plt.show()
 
 ---
 
-####🔹 **7. Biểu đồ cặp (Pairplot)**
+###🔹 **7. Biểu đồ cặp (Pairplot)**
 
 Hiển thị mối quan hệ giữa **tất cả các biến số** trong DataFrame.
 
@@ -390,7 +386,7 @@ plt.show()
 
 ---
 
-#### 🔹 **8. Biểu đồ đếm (Countplot)**
+### 🔹 **8. Biểu đồ đếm (Countplot)**
 
 Hiển thị số lượng bản ghi trong từng nhóm.
 
@@ -402,59 +398,25 @@ plt.show()
 
 ---
 
-### 🎨 **6. Tùy chỉnh giao diện Seaborn**
+## 🎨 **6. Tùy chỉnh giao diện Seaborn**
 
 Seaborn có các theme (chủ đề) và palette màu rất đẹp.
 
-#### 🔸 Theme
+### 🔸 Theme
 
 ```python
 sns.set_style("whitegrid")  # Các lựa chọn: "dark", "white", "darkgrid", "whitegrid", "ticks"
 ```
 
-#### 🔸 Palette (bảng màu)
+### 🔸 Palette (bảng màu)
 
 ```python
 sns.set_palette("pastel")    # pastel, deep, bright, dark, colorblind
 sns.color_palette("coolwarm", as_cmap=True)
 ```
 
-#### 🔸 Kích thước figure
+### 🔸 Kích thước figure
 
 ```python
 plt.figure(figsize=(8,5))
 ```
-
----
-
-## ✅ **8. Tổng kết**
-
-| Nội dung                                                               | Ghi nhớ                                                         |
-| ---------------------------------------------------------------------- | --------------------------------------------------------------- |
-| **Seaborn** là lớp giao diện trực quan đẹp hơn dựa trên **Matplotlib** | Giúp vẽ nhanh, ít code                                          |
-| Làm việc trực tiếp với **DataFrame**                                   | Không cần tách list từng cột                                    |
-| Có sẵn nhiều biểu đồ thống kê                                          | `barplot`, `boxplot`, `violinplot`, `heatmap`, `pairplot`, v.v. |
-| Dễ tuỳ chỉnh theme, palette, layout                                    | Tạo biểu đồ đẹp phục vụ báo cáo nhanh                           |
-
----
-
-## 🧪 **5. Thực hành**
-
-### 🧾 **Đề tài 1: Doanh thu bán hàng**
-
-1. Đọc dữ liệu `sales.csv` (các cột: Month, Region, Revenue, Cost, Profit).
-2. Vẽ:
-
-   * Biểu đồ line thể hiện **Revenue theo Month**.
-   * Biểu đồ bar thể hiện **Revenue trung bình theo Region**.
-   * Biểu đồ heatmap thể hiện **mức tương quan giữa Revenue, Cost, Profit**.
-
-### 🧮 **Đề tài 2: Hiệu suất học tập**
-
-1. Đọc dữ liệu `students.csv` (các cột: Name, Class, Math, English, Science).
-2. Vẽ:
-
-   * Boxplot thể hiện **phân bố điểm theo môn học**.
-   * Barplot thể hiện **điểm trung bình theo lớp**.
-   * Pairplot thể hiện **mối quan hệ giữa các môn học**.
-

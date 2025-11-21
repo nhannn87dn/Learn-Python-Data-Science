@@ -148,6 +148,14 @@ print(math.fsum([0.1]*10))             # 1.0
 print(math.prod([2,3,5]))              # 30
 ```
 
+Hàm `math.fsum()` là hàm cộng chính xác cao dành cho số thực (floating-point) trong module math.
+Nó giúp tránh lỗi làm tròn khi cộng nhiều số thập phân.
+
+```python
+sum([0.1] * 10)      # Kết quả: 0.9999999999999999
+math.fsum([0.1] * 10)  # Kết quả: 1.0
+```
+
 ---
 
 ## 9️⃣ Ví dụ tổng hợp
